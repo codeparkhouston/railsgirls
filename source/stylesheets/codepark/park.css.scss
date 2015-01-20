@@ -13,12 +13,18 @@
 
 .footer{
   width: 100%;
-  position: absolute;
   color: #B8E986;
   background: #417505;
   bottom: 0;
+  margin-top: 200px;
+  position: absolute;
 }
 
+@media (max-width: 600px) {
+  .footer{
+    position: relative;
+  }
+}
 
 // animated clouds inspired from http://thecodeplayer.com/walkthrough/pure-css3-animated-clouds-background
 .sky{
