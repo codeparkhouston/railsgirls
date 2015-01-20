@@ -12,28 +12,11 @@
 }
 
 .footer{
-  overflow-x: hidden;
-  overflow-y: hidden;
   width: 100%;
-  position: relative;
+  position: absolute;
   color: #B8E986;
-
-  &:before{
-    content: '';
-    background: #417505;
-    border-radius: 100%;
-
-    // -webkit-transform: rotate(90deg);
-    // transform: rotate(90deg);
-    // -moz-transform: rotate(90deg);
-
-    height: 500px;
-    width: 120%;
-    position: absolute;
-    top: 0;
-    left: -10%;
-    z-index: -1;
-  }
+  background: #417505;
+  bottom: 0;
 }
 
 
@@ -80,6 +63,12 @@
     width: 120px; height: 120px;
     top: -55px; left: auto; right: 15px;
   }
+}
+
+.tree{
+  position: absolute;
+  right: 10%;
+  top: -160px;
 }
 
 /*Time to animate*/

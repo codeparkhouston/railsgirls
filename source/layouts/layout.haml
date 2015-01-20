@@ -11,7 +11,7 @@
     %title= page_title
     
     = stylesheet_link_tag "screen"
-    = stylesheet_link_tag "http://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic|Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic|Amatic+SC:400,700"
+    = stylesheet_link_tag "http://fonts.googleapis.com/css?family=family=Muli:300,400,300italic,400italic|Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic"
   %body.sky
     /[if lt IE 7] <p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p>
 
@@ -27,19 +27,12 @@
 
       = yield
       
-      .footer{:name=>"contact"}
-        .container
-          .row
-            .col-xs-12
-              %h2 We're based out of Houston, TX.
-              / .icons
-              /   %a{:href=>"https://twitter.com/codeparkhouston"}
-              /     %img{:src=>"/images/Twitter.png", :alt=>"twitter"}
-              /   %a{:href=>"mailto:codeparkhouston@gmail.com"}
-              /     %span{:src=>"/images/email.png", :alt=>"email"}
-          .row
-            .copyright.col-xs-12
-              %p &copy Code Park Houston 2014
+    .footer{:name=>"contact"}
+      %img.tree{:src=>"./images/code-tree-idea.png"}
+      .container
+        .row
+          .copyright.col-xs-12
+            %p &copy Code Park Houston 2015
 
     = javascript_include_tag  "all", "dev"
     :javascript

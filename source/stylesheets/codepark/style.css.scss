@@ -13,13 +13,12 @@
   &:after {
     content: " "; // 1
     display: table; // 2
-  }
-  &:after {
     clear: both;
   }
 }
-
-$font-family-serif:       "Josefin Slab", Georgia, serif !default;
+html, body{
+  height: 100%;
+}
 
 .page-wrapper{
   z-index: 3;
@@ -34,19 +33,15 @@ $font-family-serif:       "Josefin Slab", Georgia, serif !default;
   font-size: 1.5em;
 }
 .section{
-  margin-top: 5em;
+  margin-top: 2em;
 }
 .park-block{
   @include clearfix();
-  margin: 10em 0 5em 0;
+  margin: 0;
   text-align: center;
 }
 .footer{
-  padding: 10em 0 5em 0;
-}
-h1{
-  font-family: $font-family-serif;
-  text-transform: uppercase;
+  padding: 2em 0;
 }
 body{
   overflow-x: hidden;

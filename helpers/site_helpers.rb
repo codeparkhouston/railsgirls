@@ -12,7 +12,7 @@ module SiteHelpers
     if data.page.description
       description = data.page.description
     else
-      description = "We are a group of Houston developers joining forces to create welcoming environments for anyone to learn to code for the web. Our mission is to increase developer diversity in our community so we can grow stronger."
+      description = ""
     end
     description
   end

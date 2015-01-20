@@ -8,12 +8,15 @@
 // @import "codepark-basic";
 
 $font-family-sans-serif:  "Lato", "Helvetica Neue", Helvetica, sans-serif !default;
+$headings-font-family: "Muli", Helvetica, sans-serif !default;
 $font-family-serif:       "Josefin Slab", Georgia, serif !default;
-$font-size-base:          15px !default;
+$font-size-base:          20px !default;
 $headings-line-height:    1.5 !default;
 
-
 $headings-park-font-family: 	  "Amatic SC", cursive;
+$brand-primary: #417505;
+
+
 
 
 @import "_vendor/bootstrap";
