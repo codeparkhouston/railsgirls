@@ -31,8 +31,8 @@ activate :livereload
 # end
 # page "/railsgirls/nametags/*", :layout => "nametags"
 # page "/railsgirls/events/feb2014/rsvp/*", :layout => "railsgirls"
-page "/events/feb2014/survey/*", :layout => "railsgirls-guides"
-page "/events/feb2014/workshop/*", :layout => "railsgirls-guides"
+page "./events/feb2014/survey/*", :layout => "railsgirls-guides"
+page "./events/feb2014/workshop/*", :layout => "railsgirls-guides"
 
 # Proxy (fake) files
 # page "/this-page-has-no-template.html", :proxy => "/template-file.html" do
