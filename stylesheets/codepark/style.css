@@ -1,0 +1,40 @@
+/* line 19, /Users/pandafulmanda/codepark/railsgirls/source/stylesheets/codepark/style.css.scss */
+html, body {
+  height: 100%; }
+
+/* line 23, /Users/pandafulmanda/codepark/railsgirls/source/stylesheets/codepark/style.css.scss */
+.page-wrapper {
+  z-index: 3;
+  position: relative; }
+
+/* line 27, /Users/pandafulmanda/codepark/railsgirls/source/stylesheets/codepark/style.css.scss */
+.header-main {
+  text-align: center; }
+
+/* line 30, /Users/pandafulmanda/codepark/railsgirls/source/stylesheets/codepark/style.css.scss */
+.events {
+  list-style: none;
+  padding-left: 0;
+  font-size: 1.5em; }
+
+/* line 35, /Users/pandafulmanda/codepark/railsgirls/source/stylesheets/codepark/style.css.scss */
+.section {
+  margin-top: 2em; }
+
+/* line 38, /Users/pandafulmanda/codepark/railsgirls/source/stylesheets/codepark/style.css.scss */
+.park-block {
+  margin: 0;
+  text-align: center; }
+  /* line 13, /Users/pandafulmanda/codepark/railsgirls/source/stylesheets/codepark/style.css.scss */
+  .park-block:before, .park-block:after {
+    content: " ";
+    display: table;
+    clear: both; }
+
+/* line 43, /Users/pandafulmanda/codepark/railsgirls/source/stylesheets/codepark/style.css.scss */
+.footer {
+  padding: 2em 0; }
+
+/* line 46, /Users/pandafulmanda/codepark/railsgirls/source/stylesheets/codepark/style.css.scss */
+body {
+  overflow-x: hidden; }
