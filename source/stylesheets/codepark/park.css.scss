@@ -1,3 +1,5 @@
+$park-green: #417505;
+
 
 // Vertical gradient, from top to bottom
 //
@@ -14,10 +16,7 @@
 .footer{
   width: 100%;
   color: #B8E986;
-  background: #417505;
-  bottom: 0;
-  margin-top: 200px;
-  position: absolute;
+  background: $park-green;
 }
 
 @media (max-width: 600px) {
